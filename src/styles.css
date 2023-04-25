@@ -1,0 +1,99 @@
+body {
+  background-color: #333; /* A light grey color */
+  font-family: Arial, sans-serif; /* A common font used for web pages */
+  color: #eee; /* A dark grey color for text */
+}
+
+/* Set a max-width for the main content container */
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Add some padding and margin to elements to create space */
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0;
+}
+
+p, ul, ol {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+/* Add some styles to links */
+a {
+  color: #0077cc; /* A blue color for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style form inputs */
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0077cc;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fad; /* A darker shade of blue on hover */
+}
+
+.navbar {
+  background-color: #c0c0c0; /* A light grey color for the navbar background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #333; /* A darker grey color for the navbar links */
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.cluster-container {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.remove-btn {
+  float: right;
+}
+
+.table-container {
+  width: 100%;
+  margin: '10px 0'
+}
