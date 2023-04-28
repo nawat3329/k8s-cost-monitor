@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+This project is for CSS451:Cloud Computing class
+# Kubernetes Cost Management and Resource Optimization Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application provides an efficient and flexible solution for cost management and resource optimization in Kubernetes clusters. It integrates with the Kubernetes API, Prometheus, and OpenCost to offer a comprehensive view of resource usage and cost. The application allows you to create customizable cost control strategies and simplifies the management process across different Kubernetes providers.
 
-## Available Scripts
+## Requirements
 
-In the project directory, you can run:
+- A Kubernetes cluster
+- Prometheus installed on the cluster
+- OpenCost installed on the cluster
+- Port forwarding set up for the Kubernetes API, Prometheus, and OpenCost
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Follow these steps to install and run the application:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone this repository.
 
-### `npm test`
+2. Navigate to the project directory.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install the necessary dependencies using `npm install`.
 
-### `npm run build`
+4. Start the application using `npm start`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The application should now be running on your local machine. Open your web browser and navigate to `http://localhost:3000` to access the dashboard.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Adding a Cluster to the Dashboard
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Ensure that you have set up port forwarding for the Kubernetes API, Prometheus, and OpenCost.
 
-### `npm run eject`
+2. On the dashboard, click the "Add Cluster" button.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Enter the forwarded port addresses for the Kubernetes API, Prometheus, and OpenCost in the corresponding input fields.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Click "Submit" to add the cluster to the dashboard.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The dashboard should now display information about the added cluster, including resource usage and cost data.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
